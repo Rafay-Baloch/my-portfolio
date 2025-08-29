@@ -1,19 +1,25 @@
- 
+
     body {
       background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
       color: white;
       font-family: 'Segoe UI', sans-serif;
       scroll-behavior: smooth;
-      background-attachment: fixed; /* Keeps the gradient fixed for a cohesive look */
+      background-attachment: fixed;
     }
     .navbar {
-      background-color: rgba(15, 12, 41, 0.8); /* Semi-transparent dark blue from gradient */
-      backdrop-filter: blur(5px); /* Subtle blur for a frosted glass effect */
-      border-bottom: 1px solid rgba(0, 255, 255, 0.3); /* Neon cyan border */
+      background-color: rgba(15, 12, 41, 0.8);
+      backdrop-filter: blur(5px);
+      border-bottom: 1px solid rgba(0, 255, 255, 0.3);
     }
     .nav-link {
       color: white !important;
       margin-right: 15px;
+    }
+    .nav-link.active {
+      background-color: #00ffff;
+      color: black !important;
+      border-radius: 5px;
+      padding: 8px 15px;
     }
     .hero {
       padding: 100px 0;
@@ -59,7 +65,6 @@
       font-weight: bold;
       text-shadow: 0 0 10px #00ffff;
     }
-
     .section-dark p, .section-dark li {
       color: #ccc;
     }
@@ -68,15 +73,15 @@
       text-shadow: 0 0 5px #00ffff;
     }
     .card {
-      background-color: rgba(18, 18, 46, 0.8); /* Semi-transparent dark blue to blend with gradient */
+      background-color: rgba(18, 18, 46, 0.8);
       border: 1px solid #00ffff;
       box-shadow: 0 0 15px #00ffff;
       color: white;
-      transition: transform 0.3s, box-shadow 0.3s; /* Added for hover effect */
+      transition: transform 0.3s, box-shadow 0.3s;
     }
     .card:hover {
-      transform: translateY(-5px); /* Matches contact item hover */
-      box-shadow: 0 0 20px #00ffff; /* Enhanced glow on hover */
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px #00ffff;
     }
     #contact .contact-info .contact-item {
       background-color: rgba(18, 18, 46, 0.8);
@@ -113,6 +118,6 @@
       padding: 20px 0;
       text-align: center;
       color: #aaa;
-      border-top: 1px solid rgba(0, 255, 255, 0.3); /* Added subtle border for separation */
+      border-top: 1px solid rgba(0, 255, 255, 0.3);
     }
   
