@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">My Portfolio</a>
+      <button style="background-color: #00ffff" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
+      <div class="text-section">
+        <h1>Abdur Rafay Hassan Baloch</h1>
+        <h4 class="text-info">Frontend Developer</h4>
+        <p>✨ “Passionate about crafting modern and responsive web experiences. With a strong focus on frontend development, I love turning ideas into visually appealing and user-friendly interfaces. Continuously learning new technologies, I aim to build creative yet practical projects that enhance digital interactions and bring designs to life.”</p>
+        <div class="social-icons mt-3">
+          <a href="https://www.linkedin.com/in/abdur-rafay-hassan-baloch-0860b9225/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/rafay-baloch"><i class="fab fa-github"></i></a>
+          <a href="mailto:abdurrafay248@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+         <a href="cv.pdf" class="btn btn-cv" download>Download CV</a>
+      </div>
+      <div class="image-section mt-5 mt-lg-0">
+        <img src="pic.jpg" alt="Profile" class="profile-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="text-section text-center">
+    <div class="container">
+      <h2 class="mb-4">About Me</h2>
+      <p class="lead">
+       I'm a passionate <b>Front-End Developer</b> and <b>Web Developer</b> with expertise in 
+  modern technologies including <b>HTML5, CSS3, Bootstrap, Tailwind CSS, JavaScript, Angular, React.js, Python, C, and C++</b>.  
+  I specialize in building responsive, user-friendly websites and applications that blend creativity with functionality.  
+  With a strong foundation in both design and development, I aim to deliver digital solutions that create impact and enhance user experiences.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+ <section id="skills" class="section-dark text-center">
+  <div class="container">
+    <h2 class="mb-4">Skills</h2>
+    <div class="row">
+      
+      <div class="col-md-3"><i class="fab fa-html5 fa-2x"></i><p>HTML5</p></div>
+      <div class="col-md-3"><i class="fab fa-css3-alt fa-2x"></i><p>CSS3 / Bootstrap</p></div>
+      <div class="col-md-3"><i class="fas fa-code fa-2x"></i><p>Tailwind CSS</p></div>
+      <div class="col-md-3"><i class="fab fa-js fa-2x"></i><p>JavaScript</p></div>
+      
+      <div class="col-md-3 mt-4"><i class="fab fa-angular fa-2x"></i><p>Angular</p></div>
+      <div class="col-md-3 mt-4"><i class="fab fa-react fa-2x"></i><p>React.js</p></div>
+      <div class="col-md-3 mt-4"><i class="fab fa-python fa-2x"></i><p>Python</p></div>
+      <div class="col-md-3 mt-4"><i class="fas fa-c fa-2x"></i><p>C / C++</p></div>
+      
+    </div>
+  </div>
+</section>
+
+  <!-- Services Section -->
+<section id="services" class="section-dark text-center">
+  <div class="container">
+    <h2 class="mb-4">Services</h2>
+    <div class="row">
+      
+      <!-- Service 1 -->
+      <div class="col-md-4">
+        <div class="card p-4 shadow-sm">
+          <h5 class="card-title">Front-End Development</h5>
+          <p class="card-text">
+            Building responsive, modern, and user-friendly websites using 
+            <b>HTML5, CSS3, Bootstrap, Tailwind CSS, JavaScript, Angular, React.js</b>.
+          </p>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="col-md-4">
+        <div class="card p-4 shadow-sm">
+          <h5 class="card-title">Web Applications</h5>
+          <p class="card-text">
+            Developing scalable and dynamic web apps with smooth UI/UX, 
+            integrating APIs, and ensuring cross-browser compatibility.
+          </p>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="col-md-4">
+        <div class="card p-4 shadow-sm">
+          <h5 class="card-title">Programming Solutions</h5>
+          <p class="card-text">
+            Offering solutions in <b>Python, C, and C++</b> for problem-solving, 
+            logic building, and backend functionalities.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-dark text-center">
+    <div class="container">
+      <h2 class="mb-4">Contact Me</h2>
+      <div class="contact-info row justify-content-center">
+        <div class="col-md-4 col-sm-6">
+          <div class="contact-item">
+            <p><i class="fas fa-envelope"></i> <a href="mailto:abdurrafay248@gmail.com">abdurrafay248@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="contact-item">
+            <p><i class="fas fa-phone"></i> <a href="tel:+923344041602">03344041602</a></p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="contact-item">
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/abdur-rafay-hassan-baloch-0860b9225/">LinkedIn</a></p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="contact-item">
+            <p><i class="fab fa-github"></i> <a href="https://github.com/rafay-baloch">GitHub</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Abdur Rafay Hassan Baloch. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
